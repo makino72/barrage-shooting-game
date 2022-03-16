@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "弾幕STG", "弾幕STG\弾幕STG.vcxproj", "{7B2DA6B1-A23A-4716-9982-0822B59859B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B2DA6B1-A23A-4716-9982-0822B59859B6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7B2DA6B1-A23A-4716-9982-0822B59859B6}.Debug|Win32.Build.0 = Debug|Win32
+		{7B2DA6B1-A23A-4716-9982-0822B59859B6}.Release|Win32.ActiveCfg = Release|Win32
+		{7B2DA6B1-A23A-4716-9982-0822B59859B6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
