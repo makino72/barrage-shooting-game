@@ -7,7 +7,7 @@ double PLAYER::y = PLAYER_INITY;
 //初期設定(CONTROLクラスにてコンストラクタによる初期化処理)
 PLAYER::PLAYER(){
 	//自機画像を読み込んでghへ
-	gh = LoadGraph("戦闘機.png");
+	gh = LoadGraph("素材/戦闘機.png");
 	//自機画像の横幅と縦幅
 	width=60;
 	height=60;
@@ -23,7 +23,7 @@ PLAYER::PLAYER(){
 	//弾の初期化
 	memset(shot,0,sizeof(shot));
 	
-	int ps_gh =LoadGraph("shot.png");
+	int ps_gh =LoadGraph("素材/shot.png");
 	int w,h;
 	//読み込んだ弾の画像のサイズを取得
 	GetGraphSize(ps_gh,&w,&h);

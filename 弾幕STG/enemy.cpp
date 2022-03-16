@@ -10,10 +10,10 @@ ENEMY::ENEMY(float x,float y,float in_time,float stop_time,float shot_time,float
 	this->e_type=e_type;
 	switch(e_type){
 	case 0:
-		gh=LoadGraph("ÉUÉRìG0.png");
+		gh=LoadGraph("ëfçﬁ/ÉUÉRìG0.png");
 		break;
 	case 1:
-		gh=LoadGraph("É{ÉX1.png");
+		gh=LoadGraph("ëfçﬁ/É{ÉX1.png");
 		break;
 	}
 	this->x=x;
@@ -39,19 +39,19 @@ ENEMY::ENEMY(float x,float y,float in_time,float stop_time,float shot_time,float
 	int w,h;
 
 	if(shot_type==1){
-		temp=LoadGraph("eshot1.png");
+		temp=LoadGraph("ëfçﬁ/eshot1.png");
 	    GetGraphSize(temp,&w,&h);
 	}else if(shot_type==2){
-		temp=LoadGraph("eshot2.png");
+		temp=LoadGraph("ëfçﬁ/eshot2.png");
 	    GetGraphSize(temp,&w,&h);
 	}else if(shot_type==0){
-		temp=LoadGraph("eshot3.png");
+		temp=LoadGraph("ëfçﬁ/eshot3.png");
 	    GetGraphSize(temp,&w,&h);
 	}else if(shot_type==3){
-		temp =LoadGraph("star01_BL.png");
-		temp1=LoadGraph("star01_GR.png");
-		temp2=LoadGraph("star01_OR.png");
-		temp3=LoadGraph("star01_RE.png");
+		temp =LoadGraph("ëfçﬁ/star01_BL.png");
+		temp1=LoadGraph("ëfçﬁ/star01_GR.png");
+		temp2=LoadGraph("ëfçﬁ/star01_OR.png");
+		temp3=LoadGraph("ëfçﬁ/star01_RE.png");
 		w=20,h=20;
 	}
 	

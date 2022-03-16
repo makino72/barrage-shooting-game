@@ -7,17 +7,17 @@ CONTROL::CONTROL()
 {
 	player = new PLAYER;
 	back = new BACK;
-	bgm=LoadSoundMem("シューティング.mp3");
+	bgm=LoadSoundMem("素材/シューティング.mp3");
 	//ChangeVolumeSoundMem(255*5/100,bgm);
 	p_damageflag=false;
-	j_damagebgm=LoadSoundMem("ピチューン.wav");
+	j_damagebgm=LoadSoundMem("素材/ピチューン.wav");
 	//ChangeVolumeSoundMem(255*2/100,j_damagebgm);
 	e_deadflag=false;
-	e_deadbgm=LoadSoundMem("敵死亡.wav");
+	e_deadbgm=LoadSoundMem("素材/敵死亡.wav");
 	//ChangeVolumeSoundMem(255*5/100,e_deadbgm);
 	gcountflag=false;
-	tuto=LoadGraph("紙芝居風.png");
-	rinkaku=LoadGraph("輪郭.png");
+	tuto=LoadGraph("素材/紙芝居風.png");
+	rinkaku=LoadGraph("素材/輪郭.png");
 	e_break=0;
 /*ENEMY(x座標,y座標,開始,停止,発射,撤退,移動パターン,ショットパターン,弾スピード,発射間隔!=0,発射数,ループ間隔,ループ数,HP,弾タイプ,敵タイプ)
   60フレーム=1秒
@@ -243,12 +243,12 @@ void CONTROL::ScoreBoard(){
 }
 
 void CONTROL::GameOver(){
-	int gameover=LoadGraph("GameOver0.png");
+	int gameover=LoadGraph("素材/GameOver0.png");
 	DrawGraph(0,195,gameover,true);
 }
 
 void CONTROL::GameClear(){
-	int gameclear=LoadGraph("game_clear.png");
+	int gameclear=LoadGraph("素材/game_clear.png");
 	DrawGraph(10,94,gameclear,true);
 }
 

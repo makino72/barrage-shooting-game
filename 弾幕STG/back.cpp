@@ -9,7 +9,7 @@ BACK::BACK()
 	x=y=MARGIN;
 
 	//‰æ‘œ‚Ì“Ç‚Ýž‚Ý
-	gh = LoadGraph("”wŒi1.png");
+	gh = LoadGraph("‘fÞ/”wŒi1.png");
 }
 
 //•`‰æ‚Ìˆ—
